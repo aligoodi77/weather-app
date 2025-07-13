@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Classy Weather
 
 A simple and modern web app to display weather conditions for any city using React and the WeatherAPI.
@@ -50,3 +51,4 @@ WeatherAPI for weather data
 CSS for styling
 
 Created by Ali Goodarzi
+
