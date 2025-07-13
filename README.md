@@ -1,54 +1,67 @@
-<<<<<<< HEAD
-# Classy Weather
+Classy Weather
+A modern and user-friendly React web application for displaying weather information of any city using the WeatherAPI.
 
-A simple and modern web app to display weather conditions for any city using React and the WeatherAPI.
+Features
+Search for any city to get current weather conditions.
 
-## Features
+View weather forecast for multiple days ahead.
 
-- Search for a city to get the current weather
-- Display weather forecast for multiple days
-- Show weather icons for each day
-- Clean, responsive, and user-friendly design
+Display weather condition icons for better visualization.
 
-## Demo
+Clean, responsive, and intuitive design for smooth user experience.
 
+Demo
 [Add your live demo link here]
 
-## Installation
+Installation
+Clone the repository:
 
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/yourusername/classy-weather.git
-   ```
+bash
+Copy
+Edit
+git clone https://github.com/yourusername/classy-weather.git
+Navigate to the project directory:
 
-2.Navigate to the project folder:
+bash
+Copy
+Edit
 cd classy-weather
+Install dependencies:
 
-3.Install dependencies:
+bash
+Copy
+Edit
 npm install
+Start the development server:
 
-4.Start the development server:
+bash
+Copy
+Edit
 npm start
+Usage
+Enter the city name in the search input field to fetch and display the current weather.
 
-## USAGE
-
-Enter the city name in the search input to see the weather.
-
-View the multi-day weather forecast with icons and temperatures.
+Browse through the multi-day forecast with easy-to-understand icons and temperature readings.
 
 Environment Variables
-To use the WeatherAPI, add your API key to a .env file in the project root:
+To use the WeatherAPI, create a .env file in the project root and add your API key:
+
+ini
+Copy
+Edit
 REACT_APP_WEATHER_API_KEY=your_api_key_here
-Then access it in your React code with:
+Access it in your React app via:
+
+js
+Copy
+Edit
 process.env.REACT_APP_WEATHER_API_KEY
-
-## Tech Stack
-
+Tech Stack
 React (functional components and hooks)
 
-WeatherAPI for weather data
+WeatherAPI for fetching weather data
 
-CSS for styling
+CSS for styling and layout
 
+Author
 Created by Ali Goodarzi
-
