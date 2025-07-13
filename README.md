@@ -65,4 +65,6 @@ WeatherAPI for weather data
 
 CSS for styling
 
+---
+
 Created by Ali Goodarzi
