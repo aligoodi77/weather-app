@@ -1,67 +1,68 @@
-Classy Weather
-A modern and user-friendly React web application for displaying weather information of any city using the WeatherAPI.
+# Classy Weather
 
-Features
-Search for any city to get current weather conditions.
+A simple and modern web app to display weather conditions for any city using React and the WeatherAPI.
 
-View weather forecast for multiple days ahead.
+---
 
-Display weather condition icons for better visualization.
+## Features
 
-Clean, responsive, and intuitive design for smooth user experience.
+- Search for a city to get the current weather
+- Display weather forecast for multiple days
+- Show weather icons for each day
+- Clean, responsive, and user-friendly design
 
-Demo
-[Add your live demo link here]
+---
 
-Installation
-Clone the repository:
+## Installation
 
-bash
-Copy
-Edit
+1. Clone this repository:
+
+```bash
 git clone https://github.com/yourusername/classy-weather.git
-Navigate to the project directory:
+```
 
-bash
-Copy
-Edit
+2.Navigate to the project folder:
+
+```bash
 cd classy-weather
-Install dependencies:
+```
 
-bash
-Copy
-Edit
-npm install
-Start the development server:
+3.Install dependencies:
 
-bash
-Copy
-Edit
-npm start
-Usage
-Enter the city name in the search input field to fetch and display the current weather.
+```bash
+cd npm install
+```
 
-Browse through the multi-day forecast with easy-to-understand icons and temperature readings.
+4.Start the development server:
 
-Environment Variables
-To use the WeatherAPI, create a .env file in the project root and add your API key:
+```bash
+cd npm start
+```
 
-ini
-Copy
-Edit
+## Usage
+
+Enter the city name in the search input to see the weather.
+
+View the multi-day weather forecast with icons and temperatures.
+
+## Environment Variables
+
+To use the WeatherAPI, add your API key to a .env file in the project root:
+
+```ini
 REACT_APP_WEATHER_API_KEY=your_api_key_here
-Access it in your React app via:
+```
 
-js
-Copy
-Edit
-process.env.REACT_APP_WEATHER_API_KEY
-Tech Stack
+```js
+process.env.REACT_APP_WEATHER_API_KEY;
+```
+
+## Tech Stack
+
 React (functional components and hooks)
 
-WeatherAPI for fetching weather data
+WeatherAPI for weather data
 
-CSS for styling and layout
+CSS for styling
 
-Author
 Created by Ali Goodarzi
